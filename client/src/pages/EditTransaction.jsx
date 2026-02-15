@@ -18,7 +18,7 @@ const EditTransaction = () => {
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get(
-        `http://localhost:5000/api/transactions/${id}`,
+        `https://expense-track-sage-xi.vercel.app//api/transactions/${id}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setForm(res.data);
@@ -34,7 +34,7 @@ const EditTransaction = () => {
     e.preventDefault();
 
     await axios.put(
-      `http://localhost:5000/api/transactions/${id}`,
+      `https://expense-track-sage-xi.vercel.app//api/transactions/${id}`,
       form,
       { headers: { Authorization: `Bearer ${token}` } }
     );

@@ -8,7 +8,7 @@ const TransactionDetails = () => {
   const [transaction, setTransaction] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/transactions/${id}`, {
+    axios.get(`https://expense-track-sage-xi.vercel.app//api/transactions/${id}`, {
       headers: { Authorization: `Bearer ${token}` }
     }).then(res => setTransaction(res.data));
   }, []);

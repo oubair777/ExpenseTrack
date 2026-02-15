@@ -36,7 +36,7 @@ const chartData = Object.entries(categorySummary).map(
   const fetchTransactions = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/transactions?limit=100",
+        "https://expense-track-sage-xi.vercel.app//api/transactions?limit=100",
         {
           headers: { Authorization: `Bearer ${token}` }
         }
