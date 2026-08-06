@@ -109,16 +109,10 @@ Video includes:
 - Frontend component structure
 
 VideoLink-https://drive.google.com/file/d/1m9Ihk70YuQwVfR7rM7C83F1Q-H4cHESI/view
----
-
-##  Submission
-
-Submitted to:
-engineering@bellcorpstudio.com
 
 ---
 
 ##  Author
 
 Mohammad Oubair Shareef
-MERN Stack Developer  
+
