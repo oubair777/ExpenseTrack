@@ -61,7 +61,7 @@ Supports query parameters:
 
 ### 1️ Clone Repository
 
-git clone https://github.com/oubair777/ExpenseTracker.git
+git clone https://github.com/oubair777/ExpenseTrack
 
 
 ### 2️ Backend Setup
