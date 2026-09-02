@@ -13,7 +13,7 @@ const AddTransaction = () => {
 
  const handleSubmit = async (e) => {
   e.preventDefault();
-
+//using token because have to link transaction and user by extracting token qnd getting user_id from it in backend by sending it
   const token = localStorage.getItem("token");
 
   try {
