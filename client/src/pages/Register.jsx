@@ -13,7 +13,7 @@ const Register = () => {
 
     try {
       const res = await axios.post(
-        "https://expense-track-sage-xi.vercel.app//api/auth/register",
+        "https://expense-track-sage-xi.vercel.app/api/auth/register",
         { name, email, password }
       );
 
