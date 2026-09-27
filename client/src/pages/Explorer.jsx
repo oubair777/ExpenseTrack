@@ -27,7 +27,7 @@ const [endDate, setEndDate] = useState("");
   const fetchTransactions = async () => {
     try {
       const res = await axios.get(
-     `https://expense-track-sage-xi.vercel.app/api/transactions?search=${search}&page=${page}&limit=${limit}&category=${category}&startDate=${startDate}&endDate=${endDate}`,
+     `https://expensetrack-2-wnsh.onrender.com/api/transactions?search=${search}&page=${page}&limit=${limit}&category=${category}&startDate=${startDate}&endDate=${endDate}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -49,7 +49,7 @@ useEffect(() => {
 
   const handleDelete = async (id) => {
     await axios.delete(
-      `https://expense-track-sage-xi.vercel.app/api/transactions/${id}`,
+      `https://expensetrack-2-wnsh.onrender.com/api/transactions/${id}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
