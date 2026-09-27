@@ -18,7 +18,7 @@ const AddTransaction = () => {
 
   try {
     await axios.post(
-      "https://expense-track-sage-xi.vercel.app/api/transactions",
+  "https://expensetrack-2-wnsh.onrender.com/api/transactions",
       { title, amount, category, date, notes },
       {
         headers: {
